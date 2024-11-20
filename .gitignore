@@ -1,0 +1,22 @@
+# dependencies
+/node_modules
+
+# testing
+/coverage
+/html-report
+
+# next.js
+/.next
+
+# debug
+npm-debug.log*
+
+# ide env setting
+/.idea
+
+# misc
+.DS_Store
+.env.development
+.env.production
+.env.test
+*.pem

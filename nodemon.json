@@ -1,0 +1,7 @@
+{
+  "watch": ["src/server/**/*", "env/.env.development"],
+  "ext": "ts,tsx",
+  "execMap": {
+    "ts": "cross-env TS_NODE_PROJECT=tsconfig.server.json node --inspect -r ts-node/register -r tsconfig-paths/register"
+  }
+}
