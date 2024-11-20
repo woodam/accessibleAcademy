@@ -11,6 +11,7 @@ import Next from "next";
 
 import { AppController } from "./app.controller";
 import { AppService } from "./app.service";
+import { RenderModule as ClientRender } from "./render/render.module";
 
 @Module({
   imports: [
@@ -39,6 +40,7 @@ import { AppService } from "./app.service";
     NotificationModule,
     LearningModule,
     ChatModule,
+    ClientRender,
   ],
   providers: [AppService],
   controllers: [AppController],
